@@ -22,16 +22,6 @@ let arr =arr.forEach(element => {
 
 //3.Given an array of objects, where each object represents an employee with an id, name, and salary property, write a function that returns a new array of employee objects sorted by their salary in ascending order.
 
-let customer = [
-    { id: 7 },
-    { name: "aline" },
-    { money: [4000, 2000, 7000, 3000] },
-  ];
-    customer.sort(function(x, y) {
-    return x.money - (y.money);
-  });
-  customer.forEach((person) => console.log(customer.money));
- console.log(customer);
 
 
 //4.Write a function that accepts an array of numbers and uses the forEach() method to console.log each number multiplied by 2.
